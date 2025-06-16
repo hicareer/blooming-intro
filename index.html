@@ -20,18 +20,24 @@
       background: url('./나에게서 피어날 자기소개서 배경.png') no-repeat center center fixed;
       background-size: cover;
       font-family: 'Paperlogy4', sans-serif;
-      cursor: url('https://emojicdn.elk.sh/%F0%9F%AA%84'), auto;
+      cursor: url('https://cur.cursors-4u.net/cursors/cur-11/cur1046.cur'), auto;
     }
 
     .overlay {
-      background-color: rgba(255, 255, 255, 0.55);
       width: 100%;
       height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+    }
+
+    .content-box {
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 20px;
+      padding: 50px 40px;
       text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
 
     h1 {
@@ -48,22 +54,24 @@
       margin: 10px;
       border: none;
       border-radius: 30px;
-      background-color: #f4d35e;
-      color: #333;
+      background-color: #f08a5d;
+      color: white;
       cursor: pointer;
       transition: background-color 0.3s;
     }
 
     .button:hover {
-      background-color: #ffe69d;
+      background-color: #d76e43;
     }
   </style>
 </head>
 <body>
   <div class="overlay">
-    <h1>나에게서 피어날 자기소개서</h1>
-    <button class="button">함께할 사람</button>
-    <button class="button">함께할 이야기</button>
+    <div class="content-box">
+      <h1>나에게서 피어날 자기소개서</h1>
+      <button class="button">함께할 사람</button>
+      <button class="button">함께할 이야기</button>
+    </div>
   </div>
 </body>
 </html>
